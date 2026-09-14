@@ -23,7 +23,7 @@ services:
     environment:
       - GF_SECURITY_ADMIN_USER=admin
       - GF_SECURITY_ADMIN_PASSWORD=tVNYJbjWImpMn6rWRNC1
-      - GF_SERVER_ROOT_URL=https://monitor.danil.ai
+      - GF_SERVER_ROOT_URL=https://monitor.promoselect.com.mx
     volumes:
       - grafana_data:/var/lib/grafana
     depends_on:
