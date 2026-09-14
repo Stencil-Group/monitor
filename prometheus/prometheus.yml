@@ -28,10 +28,9 @@ scrape_configs:
       module: [http_2xx]
     static_configs:
       - targets:
-        # En AWS asumiendo que los endpoints están expuestos en estas rutas/puertos
-        - "http://3.231.81.240:3000/api/health"
-        - "http://3.231.81.240:8080/health"
-        - "http://3.231.81.240:4321"
+        - "https://nexo.promoselect.com.mx/api/health"
+        - "https://nexo.promoselect.com.mx/gateway/health"
+        - "https://nexo.promoselect.com.mx/"
     relabel_configs:
       - source_labels: [__address__]
         target_label: __param_target
