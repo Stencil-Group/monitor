@@ -22,7 +22,7 @@ services:
       - "0.0.0.0:3000:3000"
     environment:
       - GF_SECURITY_ADMIN_USER=admin
-      - GF_SECURITY_ADMIN_PASSWORD=tVNYJbjWImpMn6rWRNC1
+      - GF_SECURITY_ADMIN_PASSWORD=Contra321!
       - GF_SERVER_ROOT_URL=https://monitor.promoselect.com.mx
     volumes:
       - grafana_data:/var/lib/grafana
